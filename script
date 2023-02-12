@@ -5,7 +5,6 @@ SetStructure Advanced
 
 project setCustomFWPath "C:\ST\STM32Cube\Repository\STM32Cube_FW_F4_V1.26.2"
 
-config saveas C:\Users\siegeljb\Documents\Matlab\Stm32F407T\Test407\Test407.ioc
-
+project generate 
 
 exit wait

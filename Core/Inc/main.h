@@ -28,6 +28,8 @@ extern "C" {
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4xx_hal.h"
+#include "stm32f4xx_ll_adc.h"
+#include "stm32f4xx_ll_i2c.h"
 #include "stm32f4xx_ll_rcc.h"
 #include "stm32f4xx_ll_bus.h"
 #include "stm32f4xx_ll_system.h"
@@ -36,6 +38,8 @@ extern "C" {
 #include "stm32f4xx_ll_utils.h"
 #include "stm32f4xx_ll_pwr.h"
 #include "stm32f4xx_ll_dma.h"
+#include "stm32f4xx_ll_rtc.h"
+#include "stm32f4xx_ll_spi.h"
 #include "stm32f4xx_ll_usart.h"
 #include "stm32f4xx_ll_gpio.h"
 
@@ -65,6 +69,15 @@ void   MX_GPIO_Init(void);
 void   MX_CAN1_Init(void);
 void   MX_USART1_UART_Init(void);
 void   MX_USB_OTG_FS_PCD_Init(void);
+void   MX_ADC1_Init(void);
+void   MX_ADC2_Init(void);
+void   MX_CAN2_Init(void);
+void   MX_I2C1_Init(void);
+void   MX_RTC_Init(void);
+void   MX_SPI1_Init(void);
+void   MX_SPI2_Init(void);
+void   MX_USART2_Init(void);
+void   MX_USB_OTG_HS_PCD_Init(void);
 
 /* USER CODE BEGIN EFP */
 
